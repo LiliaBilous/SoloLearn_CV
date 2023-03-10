@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 2rem;
+    background-color: #b0acac72;
+    font-size: 1em;
+}
+.main-wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1 1 auto;
+    background-color: #eeeeee;
+    padding: 1.5rem;
+}
+/* Intro */
+.intro {
+    background-color: #2F5A78;
+    color: white;
+    padding: 1.5rem;
+}
+img{
+    float: right;
+}
+.heading {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.prof{
+    font-size: 2em;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+}
+.summary {
+
+}
+/* Skills Section */
+.skill {
+    margin: 1rem 0;
+}
+.skills {
+    padding: 0 2.5rem;
+}
+.skills ul li{
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -1rem;
+} 
+.skills ul li .skill_prog{
+    width: 60%;
+    height: 0.4rem;
+    position: relative;
+}
+.skills ul li .skill_prog span{
+    position: absolute;
+    height: 100%;   
+    background: #2F5A78;
+    padding-right: 3rem;
+}
+.skill_name{
+    width: 0.25rem;
+}
+.skill_per{
+    margin-right: 1rem;
+} 
+
+
+/* Education */
+.education {
+    margin: 1rem 0;
+}
+.explist {
+    
+}
+.date{
+    color: #2F5A78;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1rem;
+}
+.info {
+    margin-left: 1rem;
+    font-weight: lighter;
+}
+.title {
+    font-weight: bold;
+    margin: 0.6rem 0;
+}
+.desc {
+    margin-bottom: 0.5rem;
+}
+.sert {
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+    font-weight: 400;
+    color: black;
+}
+.item > p {
+    margin: 1rem;
+}
+/* Contact Information */
+.contactinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+}
+.subheading{
+    font-size: 2em;
+    font-weight: bolder;
+    color: #2F5A78;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.data {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+/* Social */
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+.social-link {
+    display: flex;
+    flex-direction: row;
+}
+.icon {
+    color: #2F5A78;
+    padding: 0 1rem;
+}
+
+a:hover,
+a:active
+{
+    color: #2F5A78;
+    transition: 0.3s all ease-in-out;
+}
+a,
+a:visited  {
+    color: black;
+}
